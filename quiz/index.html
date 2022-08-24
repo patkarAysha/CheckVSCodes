@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css" media="all">
+</head>
+<body>
+  <header>
+    <h1>QUIZ</h1>
+    <nav>
+      <ul>
+        <li><a href="/infoPage.html">Information</a></li>
+        <li><a href="/t&cPage.html">Terms & Condition</a></li>
+        <li><a href="/helpPage.html">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="/firstPage.html">
+      <section role="region" aria-labelledby="Personal-details">
+        <h2 id="infos">Personal details</h2>
+        <hr>
+        <div class="infos">
+          <label for="name">Full Name:</label>
+          <input type="text" name="name" id="name" required/>
+        </div>
+        <div class="infos">
+          <label for="contact">Contact Number:</label>
+          <input type="text" name="contact" id="contact" required>
+        </div>
+        <div class="infos">
+          <label for="email">Email:</label>
+          <input type="email" name="student-email" id="student-email" required/>
+        </div>
+        <div class="infos">
+          <label for="birth-date">D.O.B.</label>
+          <input type="date" name="birth-date" id="birth-date" required/>
+        </div>
+        <div class="infos">
+          <label for="address">Current address:</label>
+          <input type="text" name="address" id="address" required>
+        </div>
+        <div class="infos">
+          <label for="graduation">Graduation:</label>
+          <input type="text" name="graduation" id="graduation" required>
+        </div>
+        <div class="infos">
+          <label for="g-cgpa">Graduation CGPA:</label>
+          <input type="text" name="g-cgpa" id="g-cgpa" required>
+        </div>
+        <div class="infos">
+          <label for="pg">Post-Graduation:</label>
+          <input type="text" name="pg" id="pg" required>
+        </div>
+        <div class="infos">
+          <label for="pg-cgpa">Post-Graduation CGPA:</label>
+          <input type="text" name="pg-cgpa" id="pg-cgpa" required>
+        </div>
+        <div class="infos">
+          <label for="skills">Skills:</label>
+          <input type="textarea" name="skills" id="skills" required>
+          <p class="note">Note:kindly let skills separate by comma(,).
+        </div>
+      </section>
+      <button type="submit" >Submit</button>
+    </form>
+  </main>
+</body>
+<footer>
+  <address>
+    <a href="https://aurut.com">aurut</a>
+    <br />Bangalore
+    <br />Chennai
+    <br />India
+  </address>
+</footer>
+</html>
