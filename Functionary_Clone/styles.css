@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('fonts/Satoshi-Regular.otf');
+       font-style: normal;
+}
+*{
+  font-family: 'Satoshi';
+}
+.bgimg{
+  background-image: url("funcImg.svg");
+  background-position: center;
+  background-size: cover;
+  height: 58vh;
+}
+.sign{
+padding-bottom: 440px;
+}
+.sign-2{
+margin-top: 100px;
+}
+input[type="submit"]{
+  background-color: rgb(30 58 138);
+}
+.border-b{
+  border-color:  rgb(203 213 225);
+}
+.border-a{
+  border-color:  rgb(241 245 249);
+}
+.texto{
+  color: gray;
+}
+.texto_2{
+  color: rgb(15 23 42);
+}
+.texto_3{
+  color: rgb(51 65 85);
+}
+.blu{
+  color:rgb(0, 15, 183);
+}
+footer{
+  font-family: 'Satoshi';
+  box-sizing: border-box;
+  min-width: 0;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+
+.a{
+  box-sizing: border-box;
+    -webkit-box-align: center;
+    margin-top: 60px;
+    display: flex;
+}
+.f{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bolder;
+}
+.b{  
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-left: 60px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  letter-spacing: 1px;
+}
+.sicon{
+  font-size: 25px;
+  text-align: right;
+  margin-left: 590px;
+  letter-spacing: 20px;
+}
+.d{
+  font-size: 15px;
+  box-sizing: border-box;
+    -webkit-box-align: center;
+    margin-top: 50px;
+    display: flex;
+    vertical-align: baseline;
+}
+.e{
+ text-align: left;
+ box-sizing: border-box;
+ 
+} 
+.g{
+  margin-left:650px;
+  text-align: right;
+
+}
