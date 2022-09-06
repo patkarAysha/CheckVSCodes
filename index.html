@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelloAR - Showcase</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-black text-white px-12 antialiased">
+    
+  <header>
+    <div class="m-8">
+      <img width="140" height="100" src="./images/helloAr.svg" alt="image">
+    </div>
+  </header>
+      <div py-12>
+        <h1 class="text-3xl font-Satoshi-regular">
+          Choose any of the solution to experience
+        </h1>
+      </div>
+
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <div
+            class="glide__slides" id="s1"
+          ></div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button
+            class="glide__arrow glide__arrow--left border-none"
+            data-glide-dir="<"
+          >
+            <img src="./images/left.svg" width="24"/>
+          </button>
+          <button
+            class="glide__arrow glide__arrow--right border-none"
+            data-glide-dir=">"
+          >
+            <img src="./images/right.svg" width="24"/>
+          </button>
+        </div>
+      </div>
+    
+  </body>
+</html>
