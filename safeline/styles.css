@@ -1,0 +1,109 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  font-family: 'Manrope';          
+}
+header{
+  background-color: white;
+}
+nav ul li{
+  padding-left:20px ;
+}
+nav ul li a{
+  color: black;
+  border-radius: 3px;
+  padding: 8px;
+  position: relative;
+  text-decoration: none;
+  
+}
+ li a:hover{
+  background: rgb(177, 214, 117);
+}
+li a.active::after{
+  content: "";
+  position: fixed;
+  background-color: rgb(177, 214, 117);
+  transition: .3s;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -6px;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+
+}
+.heading{
+  position: absolute;
+  width: 649px;
+  height: 116px;
+  left: 140px;
+  top: 287px;
+  
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #020202;
+  
+}
+.box{
+  /* border: 2px solid rgb(177, 214, 117);
+  background: rgb(177, 214, 117);
+  height: 50px;
+  width: 250px; */
+  position: absolute;
+width: 255px;
+height: 48px;
+left: 140px;
+top: 474px;
+color: white;
+background: #95C24D;
+}
+.second{
+  position: absolute;
+width: 1440px;
+height: 390px;
+left: 0px;
+top: 706px;
+
+background: #FFFFFF;
+}
+.one{
+  position: absolute;
+width: 500px;
+height: 141px;
+left: 140px;
+top: 824px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+/* or 47px */
+
+
+color: #020202;
+
+}
